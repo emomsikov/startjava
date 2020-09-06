@@ -1,6 +1,5 @@
 public class Variable {
 	public static void main(String[] args) {
-
 		byte processorCore = 4;
 		short systemType = 64;
 		int windowsUpdVerison = 2004;

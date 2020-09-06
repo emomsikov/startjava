@@ -1,38 +1,34 @@
-public class ConditionalStatement{
-	
-	public static void main(String[] args){
+public class ConditionalStatement {
+	public static void main(String[] args) {
+		int age = 29;
+		boolean isMale = true;
+		double height = 1.79;
+		char firstNameLetter = 'Y';
 
-		int yourAge = 29;
-		boolean yourSexIsMale = true;
-		double yourHeight = 1.79;
-		char yourNameStartsWith = 'Y';
-
-		if(yourAge > 20){
+		if(age > 20) {
 			System.out.println("Welcome to Aging!");
 		}
 
-		if(yourSexIsMale){
+		if(isMale) {
 			System.out.println("If it made me smarter...");
 		}
 
-		if(!yourSexIsMale){
+		if(!isMale) {
 			System.out.println("Oopps!");
 		}
 
-		if(yourHeight < 1.80){
+		if(height < 1.80) {
 			System.out.println("How do you live with that?!");
-		}else{
+		} else {
 			System.out.println("Great people make great things.");
 		}
 
-		if(yourNameStartsWith == 'M'){
+		if(firstNameLetter == 'M') {
 			System.out.println("Your name starts with M");
-		}else if(yourNameStartsWith == 'E'){
+		} else if(firstNameLetter == 'E') {
 			System.out.println("Your name starts with E");
-		}else{
-			System.out.println("Your name starts with " + yourNameStartsWith);
+		} else {
+			System.out.println("Your name starts with " + firstNameLetter);
 		}
-
-
 	}
 }

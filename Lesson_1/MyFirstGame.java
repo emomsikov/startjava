@@ -1,9 +1,8 @@
 public class MyFirstGame {
 	public static void main(String[] args) {
-		int computerNum = 0;
+		int computerNum = 76;
 		int playerNum = 0;
 
-		computerNum = 76;
 		while(computerNum != playerNum) {
 			if(playerNum > computerNum) {
 				System.out.println("Введенное вами число больше того, что загадал компьютер");

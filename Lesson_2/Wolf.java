@@ -5,24 +5,23 @@ public class Wolf {
 	int age = 10;
 	String colour = "grey";
 
-	void walk(){
-
+	void walk() {
+		System.out.println("I can walk");
 	}
 
 	void sit() {
-
+		System.out.println("and I can sit");
 	}
 
 	void run() {
-
+		System.out.println("No run no food");
 	}
 
 	void howl() {
-
+		System.out.println("No way, also I can howl");
 	}
 
 	void hunt() {
-
+		System.out.println("No hunt no wolf?");
 	}
-	
 }
